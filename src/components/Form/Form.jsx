@@ -101,7 +101,7 @@ const Form = ({ jsonAds, setJsonAds }) => {
                 <div className='flex justify-center w-full'>
                     <div className='flex flex-col jusitfy-between text-center'>
                         <div onClick={() => setToggle('car')} className='cursor-pointer h-50px w-100px  border-2 rounded-lg'>Добавление<br /> машины</div>
-                        <div onClick={() => setToggle('apartaments')} className=' my-8 cursor-pointer h-50px w-100px  border-2 rounded-lg'>Добавление<br /> квартиры</div>
+                        <div onClick={() => setToggle('apartament')} className=' my-8 cursor-pointer h-50px w-100px  border-2 rounded-lg'>Добавление<br /> квартиры</div>
                         <div className='flex jusitfy-center w-full'>
                             <button className='border-2  rounded-lg mx-auto w-100px h-80px' type="submit">Отправить</button>
                         </div>
