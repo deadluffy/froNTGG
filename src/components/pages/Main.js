@@ -5,7 +5,7 @@ const Main = () => {
     const [json, setJson] = useState({ text: '' });
 
     React.useEffect(() => {
-        fetch(`https://demo-api.vsdev.space/api/brom/about_page`)
+        fetch(`https://demo-api.vsdev.space/api/brom/home_page`)
             .then(res => res.json())
             .then(data => setJson(data))
 

@@ -16,9 +16,9 @@ const Ads = () => {
 
     return (
         <div className='flex flex-col mx-32 w-full'>
-            <div className='text-3xl'>Объявления</div>
+            <div className='text-3xl my-20'>Объявления</div>
             <Form setJsonAds={setJson} jsonAds={json} />
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-3'>
                 {json.map(x =>
                     <div key={x.id} className="w-250px">
                         <div>{x.type === "car" ? <img className='h-100px w-100px' src={car} alt="car"/> : <img className='h-100px w-100px' src={apart} alt="apart"/>}</div>
